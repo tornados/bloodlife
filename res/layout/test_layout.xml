@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_outer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"  >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5.77"
+        android:orientation="vertical" >
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_group"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textIsSelectable="true" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_donated_date"
+        android:textIsSelectable="true" />
+    
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5.77"
+        android:orientation="vertical" >
+   <TextView
+        android:id="@+id/detail_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/detail_blood_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_group"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/detail_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textIsSelectable="true" />
+    
+    <TextView
+        android:id="@+id/detail_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/detail_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/detail_last_donated_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_donated_date"
+        android:textIsSelectable="true" />
+    
+    </LinearLayout>
+    
+</LinearLayout>

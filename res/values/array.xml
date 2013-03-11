@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_spinner">
+        <item >Ludhiana</item>
+        <item >Amritsar</item>
+        <item >Jalandhar</item>
+        <item >Moga</item>
+        <item >Firozpur</item>
+        <item >Ambala</item>
+        <item >Phillaur</item>
+        <item >Hoshiarpur</item>
+        <item >Bathinda</item>
+        <item >Mukerian</item>
+        <item >Phagwara</item>
+        <item >Phillaur</item>
+    </string-array>
+    
+</resources>
